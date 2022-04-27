@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+  line-height: 64px;
+}
+.themeTogglerButton {
+  line-height: 64px;
+}
+
+.themeTogglerLogo {
+}
