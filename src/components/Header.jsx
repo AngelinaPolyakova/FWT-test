@@ -1,14 +1,14 @@
 import React from "react";
-import logo from "../img/logo.png";
-import themeToggler from "../img/themeToggler.png";
-import style from "./Header.module.css";
+import logo from "../images/icons/logo.png";
+import themeToggler from "../images/icons/themeToggler.png";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <header className={style.header}>
-      <img className={style.headerLogo} src={logo} alt="" />
-      <a href="#">
-        <img className={style.themeToggler} src={themeToggler} alt="" />
+    <header className="header">
+      <img className="headerLogo" src={logo} alt="" />
+      <a className="themeTogglerButton" href="#">
+        <img className="themeTogglerLogo" src={themeToggler} alt="" />
       </a>
     </header>
   );
