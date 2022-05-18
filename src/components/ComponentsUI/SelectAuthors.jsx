@@ -1,7 +1,7 @@
 import Select from "react-select";
 import * as axios from "axios";
 import React, { Component } from "react";
-import "./SelectAuthors.css";
+import "./SelectAuthors.scss";
 
 class SelectAuthorsForm extends Component {
   constructor(props) {
@@ -43,7 +43,7 @@ class SelectAuthorsForm extends Component {
           options={this.state.selectedAuthor}
           onChange={this.handleChange}
           placeholder="Author"
-          className="selectAuthorsFormContainer"
+          className="selectAuthorsForm"
           classNamePrefix="selectAuthorsForm"
         />
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Input } from "fwt-internship-uikit";
-import "./Input.css";
+import "./Input.scss";
 
 const InputForm = () => {
   const [value, setValue] = useState("");

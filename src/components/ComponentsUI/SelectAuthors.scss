@@ -1,0 +1,91 @@
+.selectAuthorsForm {
+  &__control {
+    width: 265px !important;
+    height: 45px !important;
+    background: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    color: #000 !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+
+    &--is-focused {
+      box-shadow: 0px 0px 0px 1px black !important;
+    }
+  }
+  &__value-container {
+    margin: 0 0 0 7px;
+  }
+  &__placeholder {
+    color: #000 !important;
+  }
+  &__menu {
+    margin: 0 !important;
+
+    &-is-open {
+      border-radius: 8px 8px 0 0 !important;
+      border: 0px 1px 1px 1px solid #000000 !important;
+
+      .selectAuthorsForm__indicator {
+        color: rgba(0, 0, 0, 0.3) !important;
+        transform: rotate(180deg) !important;
+      }
+    }
+  }
+  &__indicator {
+    color: #000 !important;
+
+    &-separator {
+      display: none !important;
+    }
+  }
+  &__menu-list {
+    box-sizing: border-box !important;
+    position: absolute !important;
+    width: 265px !important;
+    height: 350px !important;
+    background: #ffffff !important;
+    border: 1px solid #000000 !important;
+    box-shadow: 0px 0px 0px 1px black !important;
+    border-radius: 0 0 8px 8px !important;
+    overflow-x: hidden !important;
+    padding: 10px 0 0 0 !important;
+
+    &::-webkit-scrollbar {
+      width: 8px !important;
+
+      &-track {
+        background: #ffffff !important;
+      }
+
+      &-thumb {
+        background: #7b7b7b !important;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12) !important;
+        border-radius: 10px !important;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 15px !important;
+    }
+  }
+  &__option {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    width: 265px !important;
+    padding: 10px 30px !important;
+
+    &--is-focused {
+      background-color: #000 !important;
+      color: #ffffff !important;
+      width: 270px !important;
+      cursor: pointer !important;
+      padding: 10px 30px !important;
+    }
+  }
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import { Range } from "fwt-internship-uikit";
-import style from "./Range.module.css";
+import "./Range.scss";
 
 const RangeForm = () => {
   return (
-    <div className={style.rangeWrapper}>
-      <Range className={style.rangeForm} />
+    <div className="rangeWrapper">
+      <Range className="rangeForm" classNamePrefix="rangeForm" />
     </div>
   );
 };

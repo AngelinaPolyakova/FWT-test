@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../images/icons/logo.png";
-import themeToggler from "../images/icons/themeToggler.png";
-import "./Header.css";
+import logo from "../../images/icons/logo.png";
+import themeToggler from "../../images/icons/themeToggler.png";
+import "./Header.scss";
 
 const Header = () => {
   return (
