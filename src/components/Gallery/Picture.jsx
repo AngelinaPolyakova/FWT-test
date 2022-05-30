@@ -1,12 +1,11 @@
 import "./Picture.scss";
 
 const Picture = (props) => {
-  let check = "";
   return (
     <>
       <div className="picture">
         <img
-          src={"C:/Users/User/The_ninth_wave.jpeg"}
+          src={'../..' + props.url}
           className="picture__image"
         />
         <div className="picture__description">
