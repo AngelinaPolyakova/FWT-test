@@ -2,7 +2,6 @@ import "./Picture.scss";
 
 const Picture = (props) => {
   let baseUrl = "https://test-front.framework.team";
-
   return (
     <>
       <div className="picture">
