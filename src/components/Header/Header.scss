@@ -1,12 +1,34 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 35px 0;
-  line-height: 64px;
-}
 .themeTogglerButton {
   line-height: 64px;
 }
 .themeTogglerLogo * {
   color: peru;
+}
+
+.header {
+  padding: 25px 0;
+  width: 280px;
+  margin: 0 auto;
+  line-height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 35px 0;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    width: 940px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .header {
+    width: 1120px;
+  }
 }

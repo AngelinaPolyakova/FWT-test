@@ -31,7 +31,7 @@ const Gallery = (props) => {
     fetch("https://test-front.framework.team/paintings")
       .then((response) => response.json())
       .then((pics) => setPics(pics));
-  });
+  }, []);
 
   let picsElements = pics.map((pic) => (
     <Picture

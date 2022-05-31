@@ -1,11 +1,11 @@
 .picture {
-  background-color: rgb(0, 0, 0);
-  width: 360px;
-  height: 275px;
-  border-radius: 20px;
+  width: 280px;
+  height: 205px;
+
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  position: relative;
 
   &:hover {
     .picture__description {
@@ -29,6 +29,7 @@
   background: rgba(255, 255, 255, 0.75);
   width: 100%;
   padding-left: 15px;
+  z-index: 1;
 }
 
 .picture__description-name {
@@ -50,4 +51,28 @@
 .picture__image {
   width: 100%;
   height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  object-fit: inherit;
+}
+
+@media (min-width: 768px) {
+  .picture {
+    width: 340px;
+    height: 249px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .picture {
+    width: 300px;
+    height: 230px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .picture {
+    width: 360px;
+    height: 275px;
+  }
 }

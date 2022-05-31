@@ -9,3 +9,15 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 767px) {
+  .rangeForm {
+    width: 280px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .rangeForm {
+    width: 160px;
+  }
+}

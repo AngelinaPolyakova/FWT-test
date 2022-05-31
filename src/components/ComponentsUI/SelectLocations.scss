@@ -1,6 +1,6 @@
 .selectLocationsForm {
   &__control {
-    width: 265px !important;
+    width: 280px !important;
     height: 45px !important;
     background: #ffffff !important;
     border: 1px solid rgba(0, 0, 0, 0.3) !important;
@@ -86,6 +86,30 @@
       width: 270px !important;
       cursor: pointer !important;
       padding: 10px 30px !important;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .selectLocationsForm {
+    &__control {
+      width: 160px !important;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .selectLocationsForm {
+    &__control {
+      width: 220px !important;
+    }
+  }
+}
+
+@media (min-width: 1366px) {
+  .selectLocationsForm {
+    &__control {
+      width: 265px !important;
     }
   }
 }

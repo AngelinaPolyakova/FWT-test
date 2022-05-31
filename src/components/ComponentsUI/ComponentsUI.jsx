@@ -1,5 +1,5 @@
 import { Input, Range, Select } from "fwt-internship-uikit";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./ComponentsUI.scss";
 import SelectAuthorsForm from "./SelectAuthors";
 import SelectLocationsForm from "./SelectLocations";
@@ -7,10 +7,10 @@ import SelectLocationsForm from "./SelectLocations";
 function ComponentsUI() {
   return (
     <div className="componentsUIWrapper">
-      <Input />
+      <SelectAuthorsForm />
       <SelectAuthorsForm />
       <SelectLocationsForm />
-      <Range />
+      <SelectAuthorsForm />
     </div>
   );
 }
